@@ -1,0 +1,54 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 27
+    defaultConfig {
+        applicationId "com.toocms.www.testdemoforwzw"
+        minSdkVersion 19
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    allprojects {
+        repositories {
+            jcenter()
+            flatDir {
+                dirs 'libs'
+            }
+            maven { url "https://jitpack.io" }
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    //    api(name: 'testframeforwzw-debug', ext: 'aar')
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    implementation 'com.android.support:design:27.1.0'
+    implementation 'com.jakewharton:butterknife:8.8.1'
+    //butterknife
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+    //butterknife
+    implementation project(':testframeforwzw')
+
+    implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.30'
+    implementation 'com.lzy.net:okgo:3.0.4'
+    implementation 'com.android.support:palette-v7:21.0.2'
+    implementation 'com.android.support:cardview-v7:21.+'
+    implementation 'com.github.bumptech.glide:glide:3.7.0'
+    implementation 'com.zhihu.android:matisse:0.5.2-beta1'
+
+
+}

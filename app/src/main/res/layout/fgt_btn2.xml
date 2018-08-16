@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.toocms.www.testdemoforwzw.TopBar
+        android:id="@+id/topBar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        custom:leftBackground="@mipmap/ic_launcher"
+        custom:leftText="Back"
+        custom:leftTextColor="#FFFFFF"
+        custom:rightBackground="@mipmap/ic_launcher"
+        custom:rightText="More"
+        custom:rightTextColor="#FFFFFF"
+        custom:title="自定义标题"
+        custom:titleTextColor="#123412"
+        custom:titleTextSize="10sp"/>
+
+    <com.toocms.www.testdemoforwzw.TestSelfView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="哈哈哈"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/shape_new_1"/>
+
+        <View
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/shape_new_2"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:text="测试"
+            android:background="@drawable/shape_new_3"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

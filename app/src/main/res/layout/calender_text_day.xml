@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="75px"
+    android:gravity="center"
+    android:id="@+id/ll"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/calender_day_tv"
+        android:layout_width="30px"
+        android:layout_height="30px"
+        android:gravity="center"
+        android:textSize="24px"/>
+
+    <TextView
+        android:gravity="center"
+        android:text="￥XX"
+        android:textSize="16px"
+        android:id="@+id/price_tv"
+        android:textColor="#FF7A00"
+        android:layout_width="60px"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

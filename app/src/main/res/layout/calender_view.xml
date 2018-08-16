@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="568px"
+    android:layout_height="844px"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="8px"
+        android:background="#FF7A00"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="50px"
+        android:background="#FFFFFF"/>
+
+    <LinearLayout
+        android:layout_width="510px"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title_tv"
+            android:layout_width="506px"
+            android:layout_height="80px"
+            android:background="@drawable/shape_calender_cor"
+            android:drawableLeft="@mipmap/ic_launcher_round"
+            android:drawablePadding="36px"
+            android:gravity="center_vertical"
+            android:paddingLeft="22px"
+            android:text="XXXX"
+            android:textSize="34px"/>
+
+        <RelativeLayout
+            android:id="@+id/header_rl"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="16px"
+            android:background="#F0EFEF">
+
+            <ImageView
+                android:id="@+id/fore_iv"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentLeft="true"
+                android:src="@mipmap/ic_launcher_round"/>
+
+            <ImageView
+                android:id="@+id/next_iv"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:src="@mipmap/ic_launcher_round"/>
+
+            <TextView
+                android:id="@+id/data_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:text="20180709"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/week_ll"
+            android:layout_width="510px"
+            android:layout_height="40dp"
+            android:background="#F0EFEF"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="日"
+                android:textSize="24px"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="一"
+                android:textSize="24px"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="二"
+                android:textSize="24px"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="三"
+                android:textSize="24px"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="四"
+                android:textSize="24px"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="五"
+                android:textSize="24px"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="六"
+                android:textSize="24px"/>
+        </LinearLayout>
+
+        <GridView
+            android:id="@+id/gridview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="30px"
+            android:background="#F0EFEF"
+            android:numColumns="7"/>
+    </LinearLayout>
+
+</LinearLayout>

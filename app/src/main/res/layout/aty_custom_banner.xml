@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CustomBannerAty">
+
+    <!-- 设置普通指示器 -->
+    <com.toocms.www.testframeforwzw.view.custombanner.CustomBanner
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        app:indicatorStyle="ORDINARY"
+        app:indicatorGravity="CENTER"
+        app:indicatorSelectRes="@drawable/shape_point_select"
+        app:indicatorUnSelectRes="@drawable/shape_point_unselect"
+        app:indicatorInterval="5dp"/>
+
+
+</android.support.constraint.ConstraintLayout>

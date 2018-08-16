@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/ic_launcher_round"/>
+
+    <item
+        android:bottom="10.0dip"
+        android:drawable="@drawable/ic_launcher_round"
+        android:left="10.0dip"
+        android:right="10.0dip"
+        android:top="10.0dp"/>
+</layer-list>

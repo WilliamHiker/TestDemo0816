@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MaterialDesignAty">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/shape_white_rect"/>
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/shape_white_rect"
+                android:elevation="2dp"/>
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/shape_white_rect"
+                android:elevation="10dp"/>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:elevation="5dip"
+                android:src="@drawable/ic_launcher"/>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:elevation="5dip"
+                android:src="@drawable/ic_launcher"
+                android:tint="@android:color/holo_blue_bright"/>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:elevation="5dip"
+                android:src="@drawable/ic_launcher"
+                android:tint="@android:color/holo_blue_bright"
+                android:tintMode="add"/>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:elevation="5dip"
+                android:src="@drawable/ic_launcher"
+                android:tint="@android:color/holo_blue_bright"
+                android:tintMode="multiply"/>
+
+            <TextView
+                android:id="@+id/tv_rect"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:elevation="1dip"/>
+
+            <TextView
+                android:id="@+id/tv_circle"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:elevation="1dip"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

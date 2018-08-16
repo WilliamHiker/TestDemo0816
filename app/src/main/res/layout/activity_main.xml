@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自定义View"/>
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="底部导航栏"/>
+
+    <!--<com.toocms.www.testdemoforwzw.CustomTitleView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:padding="10px"-->
+    <!--app:titleText="3712"-->
+    <!--app:titleTextColor="#FF0000"-->
+    <!--app:titleTextSize="40sp"/>-->
+
+    <!--<com.toocms.www.testdemoforwzw.CustomImageView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_margin="10dp"-->
+    <!--android:padding="10dp"-->
+    <!--app:image="@mipmap/ic_launcher"-->
+    <!--app:imageScaleType="center"-->
+    <!--app:titleText="hello android"-->
+    <!--app:titleTextColor="#FF0000"-->
+    <!--app:titleTextSize="30sp"/>-->
+
+    <!--<com.toocms.www.testdemoforwzw.CustomImageView-->
+    <!--android:layout_width="100dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_margin="10dp"-->
+    <!--android:padding="10dp"-->
+    <!--app:image="@mipmap/ic_launcher"-->
+    <!--app:imageScaleType="center"-->
+    <!--app:titleText="helloworldwelcome"-->
+    <!--app:titleTextColor="#00FF00"-->
+    <!--app:titleTextSize="20sp"/>-->
+
+    <!--<com.toocms.www.testdemoforwzw.CustomImageView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_margin="10dp"-->
+    <!--android:padding="10dp"-->
+    <!--app:image="@mipmap/ic_launcher"-->
+    <!--app:imageScaleType="center"-->
+    <!--app:titleText="妹子"-->
+    <!--app:titleTextColor="#FF0000"-->
+    <!--app:titleTextSize="12sp"/>-->
+
+    <!--<com.toocms.www.testdemoforwzw.CustomProgressBar-->
+    <!--android:layout_width="60dp"-->
+    <!--android:layout_height="60dp"-->
+    <!--app:firstColor="#FF0000"-->
+    <!--app:secondColor="#00FFFF"-->
+    <!--app:circleWidth="6dp"-->
+    <!--app:speed="5"/>-->
+
+    <!--<com.toocms.www.testdemoforwzw.CustomVolumControlBar-->
+    <!--android:layout_width="200dp"-->
+    <!--android:layout_height="200dp"-->
+    <!--app:firstColor="#000000"-->
+    <!--app:secondColor="#FFFFFF"-->
+    <!--app:circleWidth="10dp"-->
+    <!--app:dotCount="20"-->
+    <!--app:splitSize="10"-->
+    <!--app:bg="@mipmap/ic_launcher"/>-->
+</LinearLayout>

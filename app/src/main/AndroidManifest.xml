@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.toocms.www.testdemoforwzw">
+
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.toocms.www.testdemoforwzw.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths_public"/>
+        </provider>
+
+        <meta-data
+            android:name="design_width"
+            android:value="768">
+        </meta-data>
+        <meta-data
+            android:name="design_height"
+            android:value="1280">
+        </meta-data>
+
+        <activity android:name=".MainActivity">
+        </activity>
+        <activity android:name=".btn2.Btn2Aty">
+        </activity>
+        <activity android:name=".testpro.ui.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".OverrideViewAty">
+        </activity>
+        <activity android:name=".DragViewAty">
+        </activity>
+        <activity android:name=".ColorMatrixAty">
+        </activity>
+        <activity android:name=".ColorMatrixAty2">
+        </activity>
+        <activity android:name=".MainAty2">
+        </activity>
+        <activity android:name=".ClockTestAty">
+        </activity>
+        <activity android:name=".SurfaceViewAty">
+        </activity>
+        <activity android:name=".SurfaceViewAty2">
+        </activity>
+        <activity android:name=".MaterialDesignAty">
+        </activity>
+        <activity android:name=".CardViewAty">
+        </activity>
+        <activity android:name=".Transition1Aty">
+        </activity>
+        <activity android:name=".Transition2Aty">
+        </activity>
+        <activity android:name=".MaterialDesignAty2">
+        </activity>
+        <activity android:name=".CircularRevealAty">
+        </activity>
+        <activity android:name=".ToolbarAty">
+        </activity>
+        <activity android:name=".PermissinsDispatchederActivity">
+        </activity>
+        <activity android:name=".TestAnimAty">
+        </activity>
+        <activity android:name=".AnimTestAty2">
+        </activity>
+        <activity android:name=".AnimTestAty3">
+        </activity>
+        <activity android:name=".PropertyValuesHolderAty">
+        </activity>
+        <activity android:name=".ZhiHuSelPicAty">
+        </activity>
+        <activity android:name=".TestDemoForJavaAty">
+        </activity>
+        <activity android:name=".CustomBannerAty">
+        </activity>
+    </application>
+
+</manifest>
