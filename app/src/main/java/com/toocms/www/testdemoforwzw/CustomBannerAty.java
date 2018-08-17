@@ -7,7 +7,7 @@ import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
 import com.toocms.www.testframeforwzw.base.BaseActivity;
-import com.toocms.www.testframeforwzw.view.custombanner.CustomBanner;
+import com.toocms.www.testframeforwzw.view.banner.CustomBanner;
 
 import java.util.ArrayList;
 

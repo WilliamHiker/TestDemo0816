@@ -1,4 +1,4 @@
-package com.toocms.www.testframeforwzw.view.custombanner;
+package com.toocms.www.testframeforwzw.view.banner;
 
 import android.content.Context;
 import android.graphics.Color;
