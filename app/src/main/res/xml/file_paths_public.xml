@@ -2,7 +2,7 @@
 <paths>
     <external-path
         name="files_root"
-        path="Android/data/com.toocms.www.testdemoforwzw/" />
+        path="Android/data/com.dhc.android.testdemoforwzw/" />
     <external-path
         name="external_storage_root"
         path="." />

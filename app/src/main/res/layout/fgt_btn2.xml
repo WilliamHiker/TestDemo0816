@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <com.toocms.www.testdemoforwzw.TopBar
+    <com.dhc.android.testdemoforwzw.TopBar
         android:id="@+id/topBar"
         android:layout_width="match_parent"
         android:layout_height="40dp"
@@ -20,7 +20,7 @@
         custom:titleTextColor="#123412"
         custom:titleTextSize="10sp"/>
 
-    <com.toocms.www.testdemoforwzw.TestSelfView
+    <com.dhc.android.testdemoforwzw.TestSelfView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="哈哈哈"/>

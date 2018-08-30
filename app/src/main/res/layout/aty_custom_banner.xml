@@ -8,7 +8,7 @@
     tools:context=".CustomBannerAty">
 
     <!-- 设置普通指示器 -->
-    <com.toocms.www.testframeforwzw.view.banner.CustomBanner
+    <com.dhc.android.base.view.banner.CustomBanner
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:id="@+id/banner"
         android:layout_width="match_parent"

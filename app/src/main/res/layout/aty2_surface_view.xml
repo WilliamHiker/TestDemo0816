@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".SurfaceViewAty2">
 
-    <com.toocms.www.testdemoforwzw.testpro.SurfaceViewTest2
+    <com.dhc.android.testdemoforwzw.testpro.SurfaceViewTest2
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 </android.support.constraint.ConstraintLayout>

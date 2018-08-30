@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.toocms.www.testdemoforwzw">
+          package="com.dhc.android.testdemoforwzw">
 
     <uses-permission android:name="android.permission.CAMERA"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
@@ -15,7 +15,7 @@
         android:theme="@style/AppTheme">
         <provider
             android:name="android.support.v4.content.FileProvider"
-            android:authorities="com.toocms.www.testdemoforwzw.fileprovider"
+            android:authorities="com.dhc.android.testdemoforwzw.fileprovider"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data
@@ -88,6 +88,12 @@
         <activity android:name=".TestDemoForJavaAty">
         </activity>
         <activity android:name=".CustomBannerAty">
+        </activity>
+        <activity android:name=".TabLayoutAty">
+        </activity>
+        <activity android:name=".CommonTabAty">
+        </activity>
+        <activity android:name=".SegmentTabTag">
         </activity>
     </application>
 

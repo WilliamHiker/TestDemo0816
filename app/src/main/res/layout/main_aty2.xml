@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".MainAty2">
 
-    <com.toocms.www.testdemoforwzw.CalenderTestView
+    <com.dhc.android.testdemoforwzw.CalenderTestView
         android:id="@+id/ctv"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
