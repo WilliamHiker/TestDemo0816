@@ -239,4 +239,9 @@
         <attr name="indicatorUnSelectRes" format="reference" />
         <attr name="indicatorInterval" format="dimension" />
     </declare-styleable>
+
+    <declare-styleable name="LinearListView">
+        <attr name="android:entries"/>
+        <attr name="dividerThickness" format="dimension" />
+    </declare-styleable>
 </resources>
