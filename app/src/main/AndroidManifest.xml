@@ -4,6 +4,7 @@
 
     <uses-permission android:name="android.permission.CAMERA"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
 
     <application
         android:name=".MyApplication"
@@ -94,6 +95,10 @@
         <activity android:name=".CommonTabAty">
         </activity>
         <activity android:name=".SegmentTabTag">
+        </activity>
+        <activity android:name=".testpro.LruCatchActivity">
+        </activity>
+        <activity android:name=".ContentProviderAty">
         </activity>
     </application>
 

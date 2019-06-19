@@ -15,6 +15,8 @@ import android.widget.Toast;
 
 import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.chad.library.adapter.base.BaseViewHolder;
+import com.dhc.android.testdemoforwzw.ContentProviderAty;
+import com.dhc.android.testdemoforwzw.testpro.LruCatchActivity;
 import com.lzy.okgo.model.HttpParams;
 import com.dhc.android.testdemoforwzw.AnimTestAty2;
 import com.dhc.android.testdemoforwzw.AnimTestAty3;
@@ -141,12 +143,20 @@ public class HomeFragment extends BaseFragment {
                 } else if (position == 20) {
                     Intent intent = new Intent(getActivity(), CustomBannerAty.class);
                     startActivity(intent);
-                }else if (position == 21){
+                } else if (position == 21) {
                     Intent intent = new Intent(getActivity(), TabLayoutAty.class);
                     startActivity(intent);
-                }else if (position == 22){
+                } else if (position == 22) {
                     Intent intent = new Intent(getActivity(), CommonTabAty.class);
                     startActivity(intent);
+                } else if (position == 23) {
+                    Intent intent = new Intent(getActivity(), LruCatchActivity.class);
+                    startActivity(intent);
+                }else if (position == 24){
+                    Intent intent = new Intent(getActivity(), ContentProviderAty.class);
+                    startActivity(intent);
+                }else if (position == 25){
+
                 }
             }
         });
@@ -225,11 +235,11 @@ public class HomeFragment extends BaseFragment {
         params.put("p", p);
         params.put("member_id", member_id);
         ApiTool<IndexModel> apiTool = new ApiTool<>();
-        apiTool.postApi(getActivity(),"Index/index", params, new ApiListener<IndexModel>() {
+        apiTool.postApi(getActivity(), "Index/index", params, new ApiListener<IndexModel>() {
             @Override
             public void onComplete(IndexModel bean, Call call, Response response) {
                 finsiehd.index(bean);
-                Log.e("***","----------------哈哈哈------------------");
+                Log.e("***", "----------------哈哈哈------------------");
             }
         });
     }
